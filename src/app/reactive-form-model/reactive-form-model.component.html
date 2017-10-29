@@ -1,0 +1,8 @@
+<input type="search" placeholder="Please enter search term" class="form-control"
+[formControl]="searchField">
+<hr>
+<ul>
+  <li *ngFor="let search of searches">
+    {{ search }}
+  </li>
+</ul>
